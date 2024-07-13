@@ -139,6 +139,6 @@ resource "aws_instance" "Prod-Server" {
      sudo apt-get update -y
  EOF
  tags = {
- Name = "Prod-Server"
+ Name = "Test-Server"
  }
 }
