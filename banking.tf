@@ -130,7 +130,7 @@ resource "aws_eip" "proj-eip" {
 resource "aws_instance" "Prod-Server" {
  ami = "ami-001f2488b35ca8aad"
  instance_type = "t2.micro"
- availability_zone = "ap-southeast-1a"
+ availability_zone = "ap-southeast-2a"
  key_name = "Project_key"
  network_interface {
  device_index = 0
